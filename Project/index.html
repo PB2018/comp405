@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+    By Peter Baronas
+    updated on 5/3/2018
+    comp 405
+-->
+<html lang="en">
+	<head>
+		<title>Peter Reviews | Home</title>
+	<link rel="stylesheet" media="screen and (min-width: 481px)" href="css/base.css">
+	<link rel="stylesheet" media="screen and (max-width: 480px)" href="css/small.css">
+	<style>
+    h1 {
+      animation-duration: 2s;
+      animation-name: myanimation;
+      animation-iteration-count: 1;
+      position: relative;
+    }
+
+    @keyframes myanimation {
+      0%{
+      	color: blue;
+      	top: -50px;
+      	left: 0px
+      }
+      50%{
+      	top: 25px;
+      	left: 0px
+      }
+      100%{
+      	color: #ffffff;
+      	top: 0px;
+      }
+    }
+	</style>
+	</head>
+	<body>
+		<nav class="navbar">
+			<a href="index.html">Home</a>
+			<div class="dropdown">
+				<button class="dropbtn">Reviews</button>
+				<div class="dropdown-content">
+					<a href="bob_review.html">We Are Legion (We Are Bob)</a>
+					<a href="nice_dragon_review.html">Nice Dragons Finish Last</a>
+					<a href="storm_front.html">Storm Front</a>
+					<a href="enders_game_review.html">Ender's Game</a>
+					<a href="hounded_review.html">Hounded</a>
+				</div>
+			</div>
+		</nav>
+		<h1>Book, Movie, and TV Reviews</h1>
+		<h3>By Peter Baronas</h3>
+		<p>
+			This website is going to be where I post reviews of books, that I have read and what I thought of them. I will be breaking them into three categories based on genre. The three main genre I prefer are science fiction, science fantasy, and fantasy. However, most, if not all, of the books will fall under the umbrella genre of <a href="https://en.wikipedia.org/wiki/Speculative_fiction">speculative fiction</a>.<br> <a href="https://en.wikipedia.org/wiki/Science_fiction">Science fiction</a> is the genre in which the story has elements considered to be unlikely in real life but are portayed as reasonable in the story like practical space travel and colonization. Good examples of this are stories like Ready Player One or Star Gate where the key element is somthing that we think could or may even already exist but is taken to an extreme which in reality has not been achieved or is seen as unlikely. <br><a href="https://en.wikipedia.org/wiki/Fantasy">Fantasy</a> is a genre chracterized by a world of magic, monsters, and other things we know to be impossible. Good examples of this grenre are the Lord of the Rings series or the Harry Potter books. <br><a href="https://en.wikipedia.org/wiki/Science_fantasy">Science fantasy</a> is a hybrid of the two genres because it focuses on making the impossible seem almost possible. Good examples of this are Star Wars and Doctor Who.
+		</p>
+		<div class="flex-container">
+			<ul class="Sci-fi">Science Fiction
+				<li><i>We Are Legion (We Are Bob)</i><img src="css/imgs/bob_cover.jpg" alt="We Are Legion (We Are Bob)" width="42"></li>
+				<li><i>Ender's Game</i><img src="css/imgs/enders_game.jpg" alt="Ender's Game" width="42"></li>
+			</ul>
+			<ul class="Sci-Fa">Science Fantasy
+				<li><i>Nice Dragons Finish Last</i><img src="css/imgs/dragons.jpg" alt="Nice Dragons Finish Last" width="42"></li>
+			</ul>
+			<ul class="Fan">Fantasy
+				<li><i>Storm Front</i><img src="css/imgs/storm_front.jpg" alt="Storm Front" width="42"></li>
+				<li><i>Hounded</i><img src="css/imgs/hounded_cover.jpg" alt="Hounded" width="42"></li>
+			</ul>
+		</div>
+	</body>
+</html>
